@@ -42,7 +42,7 @@ cũng có thể dùng `MongoDB Compass` ở Desktop)
    DBURL=<your_mongodb_connection_string>
    SECRET_KEY=<your_secret_key>
    ```
-22. : Cách tạo khóa `SECRET_KEY`. Mở `Terminal` lựa chọn `git bash` và chạy lệnh `openssl rand -base64 32`
+2. : Cách tạo khóa `SECRET_KEY`. Mở `Terminal` lựa chọn `git bash` và chạy lệnh `openssl rand -base64 32`
 
 3. Chạy Server (Start Server):
 
