@@ -6,7 +6,7 @@
 - React-Hot-Toast
 - NextJS-Top-Loader
 - MongoDB 
-(Trong dự án này tôi đang sử dụng `MongoDB Atlas` trực tiếp trên Cloud của MongoDB không cần tải về máy hoặc 
+- (Trong dự án này tôi đang sử dụng `MongoDB Atlas` trực tiếp trên Cloud của MongoDB không cần tải về máy hoặc 
 cũng có thể dùng `MongoDB Compass` ở Desktop)
 - Tailwind CSS
 
