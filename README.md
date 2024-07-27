@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-   <h1>TodoApp - Ghi Chú Công Việc - NextJS - JWT Authentication</h1>
+   <h1>TodoApp - Ghi Chú - NextJS - JWT Authentication</h1>
 </div>
 
 - NextJS
