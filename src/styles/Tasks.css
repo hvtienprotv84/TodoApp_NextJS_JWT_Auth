@@ -1,0 +1,26 @@
+.task-item {
+  box-shadow: 1px 7px 12px rgba(8, 18, 69, 0.1);
+}
+
+.completed {
+  background: #27ae60 !important;
+}
+
+.tasks {
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+}
+
+.task-heading {
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #6fcf97;
+    border-radius: 0.5rem;
+  }
+}

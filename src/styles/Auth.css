@@ -1,0 +1,87 @@
+.form-group {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  color: #f8f8f8;
+  background-color: #2e2e2e;
+  border: 1px solid #3d3d3d;
+  border-radius: 4px;
+  transition: border-color 0.2s;
+}
+
+.form-control:focus {
+  border-color: #00a3ff;
+  outline: none;
+}
+
+.form-label {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  font-size: 1em;
+  color: #a1a1a1;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+}
+
+.form-control:focus + .form-label,
+.form-control:not(:placeholder-shown) + .form-label {
+  top: 0;
+  transform: translateY(-100%);
+  font-size: 0.75em;
+  color: #00a3ff;
+}
+
+input:-webkit-autofill + .form-label {
+  top: 0;
+  transform: translateY(-100%);
+  font-size: 0.75em;
+  color: #00a3ff;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #2e2e2e inset !important;
+  -webkit-text-fill-color: #f8f8f8 !important;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.form-button:hover {
+  cursor: pointer;
+}
+
+.link {
+  text-align: center;
+  color: #00a3ff;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 1em;
+}

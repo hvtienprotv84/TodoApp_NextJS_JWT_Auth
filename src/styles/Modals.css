@@ -1,0 +1,45 @@
+.modal-overlay {
+  filter: blur(4px);
+}
+
+.modal-content {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+.modal-input {
+  width: 100%;
+  padding: 1rem;
+
+  resize: none;
+  background-color: #131313;
+  color: #b2becd;
+  border-radius: 0.5rem;
+}
+
+.submit-btn {
+  transition: all 0.35s ease-in-out;
+}
+
+.submit-icon {
+  transition: all 0.55s ease-in-out;
+}
+
+.input-control {
+  position: relative;
+  margin: 1.6rem 0;
+  font-weight: 500;
+
+  @media screen and (max-width: 450px) {
+    margin: 1rem 0;
+  }
+
+  .modal-label {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    font-size: clamp(0.9rem, 5vw, 1.2rem);
+
+    span {
+      color: #6c7983;
+    }
+  }
+}

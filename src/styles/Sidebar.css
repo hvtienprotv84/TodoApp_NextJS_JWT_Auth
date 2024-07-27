@@ -1,0 +1,81 @@
+.signout {
+  transition: all 0.55s ease-in-out;
+}
+
+.profile-overlay {
+  transition: all 0.55s linear;
+  backdrop-filter: blur(10px);
+}
+
+.image {
+  transition: all 0.5s ease;
+  .img {
+    transition: all 0.5s ease;
+  }
+}
+
+.profile {
+  &:hover {
+    .profile-overlay {
+      opacity: 1;
+    }
+    .img {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.nav-item {
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #f9f9f914;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #27ae60;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.nav-link {
+  transition: all 0.3s ease-in-out;
+}
+
+.active {
+  background-color: #f9f9f914;
+
+  .nav-icon,
+  .nav-link {
+    color: #f9f9f9bf;
+  }
+}
+
+.active::before {
+  width: 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    transition: all 0.3s cubic-bezier(0.53, 0.21, 0, 1);
+  }
+}
