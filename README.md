@@ -1,4 +1,12 @@
-# TodoList - NextJS - JWT Authentication
+<div align="center">
+   <img src="https://www.openxcell.com/wp-content/uploads/2021/11/dango-inner-2.png" width="300"/> &nbsp; &nbsp; &nbsp;
+   <img src="https://seeklogo.com/images/J/jwt-logo-65D86B4640-seeklogo.com.png" width="300"/>
+</div>
+
+<div align="center">
+   <h1>TodoList - NextJS - JWT Authentication</h1>
+</div>
+
 - NextJS
 - ReactJS
 - JWT Authentication
