@@ -8,6 +8,7 @@
 </div>
 
 - NextJS
+- TypeScript
 - ReactJS
 - JWT Authentication
 - Redux
